@@ -1,0 +1,4101 @@
+<<<<<<< HEAD
+BODY
+{
+    /* overflow-anchor: none;  too many problems with this */
+}
+
+#message_edit
+{
+    background-color: #fff;
+    margin-top: 16px;
+    margin-left: 40px;
+    padding: 8px 8px;
+    width: 584px;
+    border-radius: 6px;
+}
+
+.message_edit_wider
+{
+    width: 624px !important;
+    margin-left: 0 !important;
+}
+
+.message_edit_wider::selection
+{
+    background-color: highlight;
+}
+
+.message_edit_wider #mesubject,
+.message_edit_wider #melocation
+{
+    width: 614px;
+}
+
+.message_edit_wider #meinsert
+{
+    margin-left: 145px;
+}
+
+#ma_hide_deleted, #ma_show_deleted
+{
+    float: left;
+}
+
+.discussting
+{
+    display: inline-block;
+    width: 114px;
+    height: 24px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: -1px;
+    margin-bottom: 0px;
+    text-align: center;
+//	background-color: #cfe7eb;
+    background-color: #29af90;
+    user-select: none;
+    padding-left: 0;
+    color: #fff !important;
+
+    cursor: pointer;
+}
+
+.discusstingfirst
+{
+    margin-left: -16px;
+    width: 113px;
+    border-right: 1px solid #cfe7eb;
+}
+
+.discusstingwide
+{
+    margin-left: -16px;
+    margin-right: -16px;
+    width: 342px;
+    border-right: 1px solid #cfe7eb;
+}
+
+.discusstinglast
+{
+    margin-right: -16px;
+    width: 113px;
+    border-left: 1px solid #cfe7eb;
+}
+
+
+.discussting:hover
+{
+    background-color: #b1d0ff;
+    color: #00c !important;
+    text-decoration: none;
+}
+
+.markread
+{
+    font-size: 9pt;
+    float: left;
+    padding-top: 15px;
+}
+
+.newthread
+{
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    padding-top: 4px;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #eee;
+    user-select: none;
+    float: right;
+
+    font-weight: bold;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.newthread:hover
+{
+    background-color: #b1d0ff;
+    color: #00c;
+    text-decoration: none;
+}
+
+
+#message_edit_alert
+{
+    margin-top: 8px;
+    color: red;
+}
+
+#medittitle
+{
+    display: block;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 11pt;
+    user-select: none;
+    background-color: #cfe7eb;
+    margin-bottom: 8px;
+}
+
+#medittitle #closeme
+{
+    float: right;
+    user-select: none;
+    font-size: 8pt;
+    cursor: pointer;
+}
+
+#pcloseme
+{
+    float: right;
+    position: relative;
+    font-size: 8pt;
+    text-shadow: 1px 1px #ffffff;
+    left: -22px;
+    top: 12px;
+    display: none;
+}
+
+
+#mephoto
+{
+    padding: 16px 8px;
+    text-align: center;
+    border: 1px solid #888;
+    background-color: #eee;
+    user-select: none;
+    font-weight: bold;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+#mephotosub
+{
+    font-size: 8pt;
+    text-align: left;
+    margin-top: 8px;
+}
+#mephotosub LI
+{
+    list-style-type: disc;
+}
+.meimportant
+{
+    font-size: 10pt;
+    color: red;
+    font-weight: bold;
+    margin-top: 8px;
+}
+#meditmodal
+{
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: none;
+}
+#meditmodal button
+{
+    display: inline-block;
+
+    background-color: #29af90;
+    color: #fff;
+    padding: 4px 8px;
+    border: 0px;
+    font-size: 9pt;
+    margin-right: 0.5em;
+    border-radius: 3px;
+}
+
+#meditpastecancel
+{
+    float: right;
+    background-color: #c00 !important;
+}
+
+#mesubject, #melocation
+{
+    font-size: 12pt;
+    /* width: 574px; */
+    padding: 4px;
+    margin-top: 8px;
+    border: 1px solid #888;
+}
+.mehardrow
+{
+    width: 100% !important;
+}
+.mehardrow LABEL
+{
+    font-weight: bold;
+    display: inline-block;
+    width: 300px;
+    padding-top: 11px;
+    padding-bottom: 4px;
+}
+
+
+
+#mephotoimg
+{
+    display: none;
+    width: 568px;
+    max-width: 568px;
+
+}
+
+#mephotoimg IMG
+{
+    max-width: 558px;
+    border: 1px solid #ccc;
+}
+
+
+#metext
+{
+    padding: 16px 8px;
+    padding-top: 40px;
+    min-height: 100px;
+    border: 1px solid #888;
+    background-color: #f8f8f8;
+    user-select: auto !important;
+}
+
+
+#metext .userbigpicture
+{
+    width: auto !important;
+}
+#metext .userbigpicture IMG {
+    border: 0;
+    max-width: 100%;
+}
+
+#mebuttons
+{
+    background-color: #e0e0e0;
+    border-top: 1px solid #888;
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    margin-top: 6px;
+    margin-bottom: -26px;
+    height: 25px;
+
+    position: relative;
+    border-bottom: 1px solid #888;
+
+}
+
+#mebuttons button
+{
+    font-size: 9pt;
+    padding: 2px 8px;
+    margin-top: 0;
+    height: 25px;
+    width: 26px;
+    background-color: #eee;
+    border: 0;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+}
+
+#mebutton_subscript
+{
+    height: 26px !important;
+}
+
+.mebuttoncancelled
+{
+    background: linear-gradient(135deg, #eeeeee 0%,#eeeeee 48%,#ff3030 50%,#eeeeee 52%,#eeeeee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.mebuttonright
+{
+    float: right;
+    border-left: 1px solid #888 !important;
+    border-right: 0 !important;
+}
+
+
+
+#mebuttons button:hover
+{
+    background-color: #b1d0ff;
+}
+
+
+#mephotoimg
+{
+    display: none;
+}
+
+
+#meditbottom
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #aaa;
+}
+#mesubmit
+{
+    display: inline-block;
+    float: right;
+    background-color: #29af90;
+    color: #fff;
+    padding: 4px 8px;
+    opacity: 0.5;
+    border-radius: 3px;
+
+}
+
+#mesubmit:hover
+{
+    cursor: pointer;
+    background-color: #b1d0ff;
+    color: #00c;
+    user-select: none;
+}
+
+
+#meinsert {
+    /* display: block; */
+    font-size: 16px;
+    font-family: sans-serif;
+    /* font-weight: 700; */
+    color: #fff;
+    /* line-height: 1.3; */
+    padding: 4px 8px;
+    width: 150px;
+    /* width: 100%; */
+    /* max-width: 100%; */
+    box-sizing: border-box;
+    margin: 0;
+    text-align-last: center;
+    /* text-align: center; */
+    border: 0;
+    border-radius: 3px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #008398;
+    margin-left: 125px;
+    /* background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); */
+    /* background-repeat: no-repeat, repeat; */
+    /* background-position: right .7em top 50%, 0 0; */
+    /* background-size: .65em auto, 100%; */
+}
+#meinsert::-ms-expand {
+    display: none;
+}
+#meinsert:hover {
+    background-color: #b1d0ff;
+    color: #00c;
+    user-select: none;
+}
+#meinsert:focus {
+
+
+    color: #fff;
+    outline: none;
+}
+#meinsert option {
+
+    font-weight:normal;
+}
+
+
+#message_sidemenu
+{
+    float: right;
+    background-color: #fff;
+    min-height: 100px;
+    width: 310px;
+    padding: 16px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+}
+
+.message_statstable
+{
+    margin-top: 8px !important;
+    width: 342px;
+    margin-left: -16px !Important;
+}
+
+.mb_postlink
+{
+    background-color: #cfe7eb;
+    display: block;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #000 !important;
+}
+
+.mb_postlink:hover
+{
+    background-color: #6EB5C2;
+    color: #fff;
+
+}
+
+.mb_postlink SPAN
+{
+    font-weight: normal;
+    float: right;
+    font-size: 10pt;
+}
+
+
+
+#articlemessages #message_sidemenu
+{
+    margin-top: 1em;
+}
+
+
+#mbsearchtxt
+{
+    width: 543px;
+    font-size: 12pt;
+    padding: 3px;
+    margin-bottom: 1em;
+}
+
+#mbsearchmore
+{
+    display: none;
+    margin-bottom: 1em;
+}
+
+
+#mbsearchexpand
+{
+    float: right;
+    user-select: none;
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+
+    border-radius: 3px;
+
+    background-color: #acf;
+    font-weight: bold;
+}
+
+#mbsearchexpand:hover
+{
+    background-color: #ffc;
+
+}
+
+#mbwhen, #mbdepth, #mbgroups, #mbread
+{
+    font-size: 10pt;
+
+    height: 24px;
+
+    border: 1px solid #ccc !important;
+}
+
+#ma_final_actions
+{
+    width: 640px;
+}
+
+.ma_reportarea
+{
+    clear: both;
+    color: #f42;
+
+}
+
+.ma_reportarea SPAN
+{
+    font-weight: bold;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 4px;
+    background-color: #ffce;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.ma_reportarea span:hover
+{
+    background-color: #f42;
+    color: #fff;
+}
+
+.message_actions
+{
+    font-size: 8pt;
+    margin-top: 16px;
+    margin-bottom: -8px;
+    margin-right: -8px;
+    text-align: right;
+    opacity: 1;
+    color: #888;
+    height: 15px;
+}
+
+.mb_seenby
+{
+    padding-top: 16px;
+    font-size: 7pt;
+    color: #555;
+}
+
+.message_moderate_actions, .ma_split
+{
+    font-size: 8pt;
+    clear: both;
+    padding-top: 8px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    opacity: 1;
+    color: #f22;
+  /* display: none; */
+    height: 15px;
+}
+
+.message_moderate_actions a
+{
+}
+#articlemessages>.message_actions, #articlemessages>.message_moderate_actions
+{
+    width: 640px;
+    padding-bottom: 1em;
+}
+
+.message_actions span, .message_moderate_actions span,
+.message_moderate_actions a
+{
+    cursor:pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    user-select: none;
+}
+
+.ma_moderate
+{
+    float: left;
+    margin-left: 0px !Important;
+}
+
+#articlemessages>.message_actions span, #articlemessages>.message_moderate_actions span
+{
+
+    display: inline-block;
+
+    background-color: #29af90;
+    color: #fff;
+    padding: 4px 8px;
+
+    border-radius: 3px;
+
+}
+
+#articlemessages>.message_actions span:hover, #articlemessages>.message_moderate_actions span:hover
+{
+    cursor: pointer;
+    background-color: #b1d0ff;
+    color: #00c;
+    user-select: none;
+}
+
+
+.t_switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 18px;
+}
+
+/* Hide default HTML checkbox */
+.t_switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+#mb_newdirectcontent
+{
+    width: 600px;
+    font-size: 10pt;
+    height: 180px;
+    padding: 8px;
+    margin-left: -6px;
+}
+
+#mb_sendthatmessage
+{
+    background-color: #29af90;
+    color: #fff;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 536px;
+}
+
+#mb_sendthatmessage:hover
+{
+    background-color: #b1d0ff;
+    color: #00c !important;
+}
+
+.mbd_hide
+{
+
+    width: 100%;
+    text-align: right;
+    padding-bottom: 10px;
+    margin-top: -16px;
+}
+
+#bug_button
+{
+    display: none;
+}
+
+.bugme
+{
+    display: block !important;
+    background-color: #ffcc00;
+    border: 1px solid #444;
+    border-radius: 3px;
+}
+
+/* The slider */
+.t_slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.t_slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 1px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+input:checked + .t_slider {
+    background-color: #2196F3;
+}
+
+input:focus + .t_slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .t_slider:before {
+
+    transform: translateX(12px);
+}
+
+/* Rounded sliders */
+.t_slider.t_round {
+    border-radius: 24px;
+}
+
+.t_slider.t_round:before {
+    border-radius: 50%;
+}
+
+.message_reply:hover .message_actions, .message_wrap:hover .message_actions
+{
+    opacity: 1;
+}
+
+.message_actions span:hover, .message_moderate_actions span:hover
+{
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+
+A.mbps
+{
+    display: block;
+    margin: 0 -16px;
+    padding: 5px 8px 5px 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 9pt;
+    color: #222;
+    user-select: none;
+}
+.mb_hpgroups .mbps
+{
+    display: inline-block;
+    width: 170px;
+    margin: 4px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    float: left;
+    height: 32px;
+    background-color: #f4f7f7;
+    border-radius: 4px;
+}
+
+
+.mbps:hover, .mb_hpgroups .mbps:hover
+{
+    text-decoration: none;
+    background-color: #b8e5d8;
+    color: #000;
+    cursor: pointer;
+}
+
+.mbpsfoc
+{
+    border-top: 1px solid #ddd;
+}
+
+.mbps3
+{
+    background-color: #cfe7eb;
+}
+
+
+#movethreadgo {
+    font-size: 8pt;
+    height: 20px;
+    border: 0;
+    margin-left: 4px;
+    cursor: pointer;
+    background-color: #29af90;
+    color: #fff;
+
+}
+
+#movethreadgo:hover {
+    background-color: #b1d0ff;
+    color: #00c;
+}
+
+
+.mpgclass2
+{
+    float: right;
+    margin-top: 6px;
+
+}
+
+
+.mbps B
+{
+    display: block;
+
+}
+
+.messageboard_group_main .messageboard_threadpreview
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mbdeletedmsg
+{
+    background-color: #bbb !important;
+}
+
+.mbtpdate.unread
+{
+
+    color: #f00 !important;
+    font-weight: bold !important;
+
+}
+
+.messageboard_threadpreview
+{
+    display: block;
+    height: 48px;
+    margin-left: -16px;
+    margin-right: -16px;
+    line-height: 1.5em;
+    border-bottom: 1px solid #ddd;
+    padding: 12px 8px 0 8px;
+    user-select: none;
+    background-color: #eee;
+}
+
+
+
+
+
+.threadunread
+{
+    background-color: #fff;
+}
+
+
+.mbmarketplace
+{
+    background-color: #eeaa !important;
+}
+
+.mbmarketplace.threadunread
+{
+    background-color: #ff8 !important;
+}
+
+
+
+
+.messageboard_threadpreview:hover
+{
+    text-decoration: none;
+    background-color: #b8e5d8;
+}
+
+.messageboard_threadpreview IMG
+{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin-top: 4px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.mbtpsubj
+{
+    display: block;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#ma_final_actions
+{
+    background-color: #fff;
+    padding: 1em 0;
+    border-radius: 4px;
+}
+
+.mbtpdate
+{
+    display: block;
+    font-size: 7.5pt;
+    color: #666;
+    overflow: hidden;
+    height: 16pt;
+    margin-top: 1px;
+    margin-right: -2px;
+    margin-left: 1em;
+    float: right;
+}
+
+.unread .mbtpdate
+{
+    color: #f00 !important;
+    font-weight: bold !important;
+}
+
+.mbtpgroup
+{
+    color: #888 !important;
+}
+
+.message_username .mbtpdate
+{
+    float: right;
+    font-size: 8pt;
+    padding-top: 2px;
+    color: #888;
+    font-weight: normal;
+    margin-right: -10px;
+}
+
+#photomessages .message_username .mbtpdate
+{
+    margin-right: 24px !Important;
+}
+
+.mbtpname
+{
+
+    font-size: 8pt;
+    padding-top: 1px;
+    color: #000;
+    display: block;
+
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.mbtpname span
+{
+    color: #822;
+}
+
+.mb_groupedit
+{
+    float: right;
+    font-size: 9pt;
+    font-weight: normal;
+    color: #fff !important;
+}
+
+
+#message_sidemenu h1
+{
+    margin: -16px -16px 0 -16px;
+    background-color: #008398;
+
+    color: #fff;
+    padding: 6px 8px 7px 8px;
+    font-size: 14pt;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#message_closeside
+{
+    float: right;
+    user-select: none;
+    font-size: 7pt;
+    color: #0cf;
+}
+
+#message_closeside:hover
+{
+    cursor: pointer;
+    color: #fff;
+}
+
+#message_sidemenu h2
+{
+    padding: 14px 8px 10px 8px;
+    background-color: #6EB5C2;
+    color: #fff;
+    text-align: center;
+
+    font-size: 10pt;
+    margin: 0 -16px 0 -16px !important;
+
+}
+
+
+.messageboard_group_main h2
+{
+    padding: 8px 8px 6px 8px !important;
+    background-color: #f4f4f4;
+    font-size: 10pt;
+    margin: 0 -16px 0 -16px !important;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #eee;
+}
+
+.messageboard_group_main h2 img
+{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: -6px;
+    margin-right: 8px;
+    margin-top: -6px;
+}
+
+#mbsimilarpost
+{
+    margin-top: -17px !important;
+    font-size: 13pt;
+    background-color: #6EB5C2;
+    color: #fff;
+}
+
+.mbd_quoted
+{
+    color: #888;
+}
+
+.message_wrap
+{
+    width: 608px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+}
+
+#mb_recentimages
+{
+    margin-left: -13.5px;
+    margin-right: -13.5px;
+    margin-top: 3px;
+}
+
+#mb_recentimages img:hover
+{
+    outline: 3px solid #f00;
+    outline-offset: -3px;
+
+}
+
+
+.message_wrap .plainuserpicture, .message_reply .plainuserpicture
+{
+    max-width: none !important;
+}
+
+
+
+.messageboard_group_main
+{
+    width: 608px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+}
+
+#mb_direct_delete
+{
+    float: right;
+    font-size: 14pt;
+    margin-left: 1em;
+    margin-right: -12px;
+    margin-top: -16px;
+    color: #c22;
+    cursor: pointer;
+}
+
+#mb_direct_delete:hover
+{
+    text-decoration: none;
+    color: #f00;
+}
+
+.messageboard_group_main H1 {
+    margin-top: -16px !important;
+    margin-bottom: 1em !important;
+
+    background-color: #6eb5c2;
+    color: #fff;
+    padding-bottom: 6px !Important;
+    padding-top: 8px !important;
+    font-size: 14pt !important;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+
+
+}
+
+.messageboard_article_heading {
+    margin-bottom: 1em !important;
+
+    background-color: #6eb5c2;
+    color: #fff;
+    padding-left: 8px;
+    padding-bottom: 6px !Important;
+    padding-top: 8px !important;
+    font-size: 14pt !important;
+    margin-left: -4px !important;
+    width: 628px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+
+
+.mb_direct_userwrap
+{
+    border: 1px solid #888;
+    border-radius: 6px;
+    margin-bottom: 1em;
+    padding: 8px;
+
+}
+
+.mb_direct_userwrap h3 img
+{
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 6px;
+    margin-left: -8px;
+    margin-top: 0px;
+    margin-right: 8px;
+    margin-bottom: -13px;
+}
+
+.mb_direct_userwrap h3
+{
+    padding: 0;
+    margin: 0;
+    background-color: #cfe7eb;
+    font-weight: bold;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    font-size: 18px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 0px 8px 8px 8px;
+}
+
+.mb_direct_preview
+{
+    display: block;
+    border-top: 1px solid #ccc;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 4px 8px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.mb_direct_preview:hover
+{
+    text-decoration: none;
+    background-color: #ffc;
+    color: #000;
+}
+
+.mb_dp_read
+{
+    font-weight: normal;
+    background-color: #f4f4f4;
+}
+
+.mb_direct_preview.mb_dp_to
+{
+    color: #888;
+
+}
+
+
+.mb_direct_preview.mb_dp_unread
+{
+    background-color: #fee;
+
+}
+
+.mb_direct_preview_date
+{
+    float: right;
+    font-weignt: normal;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.mb_direct_preview SPAN
+{
+    display: block;
+    float: left;
+    width: 46px;
+    font-weight: bold;
+}
+
+.messageboard_group_main H1 A
+{
+    color: #cff;
+}
+
+.messageboard_home_image
+{
+    margin-left: -16px;
+    display: block;
+    margin-top: -20px;
+}
+
+
+
+#messageboard_home
+{
+    width: 608px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+}
+
+#messageboard_home H1 {
+    margin-top: -16px !important;
+    margin-bottom: 1em !important;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px !Important;
+    padding-top: 8px !important;
+    font-size: 14pt !important;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    background-color: #6eb5c2;
+    color: #fff;
+
+
+}
+
+.messageboard_group_header_image
+{
+    margin-left: -16px;
+    display: block;
+    margin-top: -20px;
+
+}
+
+.mbad
+{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.message_group
+{
+    float: right;
+    font-size: 10pt;
+    font-weight: normal;
+    margin-top: 2px;
+
+}
+
+.message_group A
+{
+    user-select: none !important;
+    color: #400;
+}
+
+.message_group A:hover
+{
+    color: #c00;
+}
+
+.message_wrap H1 {
+    margin-top: -16px !important;
+    margin-bottom: 1em !important;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px !Important;
+    padding-top: 8px !important;
+    font-size: 12pt !important;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    background-color: #eee;
+    padding-left: 8px !important;
+
+}
+
+#photomessages .message_wrap H1
+{
+    padding-right: 8px;
+}
+
+.message_wrap .plainuserpicture
+{
+    padding: 0 !important;
+}
+
+
+.mb_attachments
+{
+
+    padding-top: 8px;
+}
+
+.mb_attachments p
+{
+    user-select: none;
+    border: 1px solid #000;
+    width: 30px;
+    height: 20px;
+    font-size: 6pt;
+    font-weight: bold;
+    padding-top: 20px;
+    background-color: #ffc;
+    border-top-left-radius: 5px;
+    color: #000;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mb_attachments p a
+{
+    text-decoration: none;
+}
+
+.mb_attachments p:hover
+{
+    color: #fff;
+    background-color: #f00;
+    cursor: pointer;
+}
+
+
+.mb_attachments IMG
+{
+    height: 40px;
+}
+
+.mb_attachments TABLE
+{
+    width: 100%;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.mb_attachments H2
+{
+    padding: 0;
+    margin: 0;
+    font-size: 10pt;
+}
+
+
+.mb_delete_attach
+{
+    color: #006;
+    cursor: pointer;
+}
+
+.mb_delete_attach:hover
+{
+    text-decoration: underline;
+}
+
+
+.mb_attachments TD
+{
+
+    padding: 4px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.mb_attachments TD:first-of-type
+{
+    text-align: center;
+    width: 40px;
+}
+
+.message_wrap img
+{
+    padding: 0 !Important;
+    max-width: 624px !important;
+    border: 0 !important;
+}
+
+#bug_button
+{
+    float: right;
+}
+
+
+
+.message_reply video
+{
+    padding: 0 !Important;
+    max-width: 600px !important;
+    border: 0 !important;
+}
+
+.mainmsg.message_wrap .plainuserpicture IMG
+{
+    width: 640px !important;
+    max-width: 640px !important;
+}
+
+.message_reply.subreply img
+{
+
+    max-width: 580px !important;
+
+}
+
+
+.message_wrap .userbigpicture IMG
+{
+    max-width: 640px !important;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.message_reply .userbigpicture IMG
+{
+    max-width: 600px !important;
+    height: auto;
+}
+
+
+
+.message_reply img
+{
+
+    max-width: 600px !important;
+
+}
+
+.message_reply.subreply img
+{
+
+    max-width: 580px !important;
+
+}
+
+.message_reply.subreply .userbigpicture IMG
+{
+    max-width: 580px !important;
+    height: auto;
+}
+
+
+.message_wrap .avatar
+{
+    width: 32px;
+    float: left;
+    margin-left: -8px;
+    margin-right: 8px;
+}
+
+.message_reply .avatar
+{
+    width: 30px;
+    float: left;
+    margin: 4px 4px 0 4px;
+    border: 1px solid #888;
+    border-radius: 4px;
+}
+
+.message_reply
+{
+    margin-top: 1em;
+    background-color: #eee;
+    width: 640px;
+    margin-left: 0;
+
+    border-radius:6px;
+}
+
+.mb_replyunthreaded
+{
+    font-size: 9pt;
+    margin-bottom: 1em;
+    opacity: 0.8;
+
+}
+
+.message_reply.subreply
+{
+    margin-left: 20px !important;
+    width: 620px;
+
+}
+
+
+
+.message_reply .quoteblock
+{
+    width: 534px;
+}
+
+.message_reply.subreply .quoteblock
+{
+    width: 514px !important;
+}
+
+.message_reply .message_wrap
+{
+    width: 568px;
+
+}
+
+.message_reply.subreply .message_wrap
+{
+    width: 548px;
+
+}
+
+.mr_manager
+{
+    background-color: #f9ad87 !important;
+}
+
+.mr_expert
+{
+    background-color: #f9d6c5 !important;
+}
+
+.mr_founder
+{
+    background-color: #f9ad87 !important;
+}
+
+.mr_founder A, .mr_manager A, .mr_expert A
+{
+    color: #006;
+}
+
+.mb_searchmatch
+{
+    color: #c00;
+    font-weight: bold;
+}
+
+.messageboard_contentpreview
+{
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+    width: auto;
+    margin-left: -16px;
+    margin-right: -16px;
+    font-size: 8.5pt;
+    padding-left: 16px;
+    padding-right: 8px;
+}
+
+.bugstatus_1
+{
+    background-color: #c00 !Important;
+    color: #fff !Important;
+}
+
+.bugstatus_1 A
+{
+    color: #ffc;
+}
+
+.bugstatus_1 A:hover
+{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.bugstatus
+{
+    color: transparent;
+    text-shadow: 0 0 0 #ff0;
+    user-select: none !important;
+}
+
+.bugstatusclosed
+{
+    text-decoration: line-through;
+    color: transparent;
+    text-shadow: 0 0 0 #888;
+    user-select: none !important;
+}
+
+.mbtpsubj .bugstatus
+{
+    text-shadow: 0 0 0 #f00;
+
+    font-weight: bold;
+}
+
+.displayaccl
+{
+    color: #800;
+    font-weight: normal;
+    margin-left: 6px;
+
+}
+
+.bug_status_table
+{
+    border: 2px solid #c88;
+    margin-top: 1em;
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-bottom: -16px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.bug_status_table TABLE
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bug_status_table TH
+{
+    background-color: #e00;
+    padding: 8px;
+    color: #fff;
+    border-right: 1px solid #e00;
+    border-bottom: 1px solid #e00;
+}
+
+.bug_status_table TD
+{
+
+    padding: 8px;
+
+    border-bottom: 1px solid #e00;
+}
+
+.displayaccl::before
+{
+    content: " -\a0\a0";
+}
+
+.ma_split
+{
+    float: left;
+}
+
+.message_wrap h2, .message_reply h2
+{
+    margin: 0;
+    font-size: 10pt !important;
+}
+
+.message_topimg
+{
+
+    margin-left: -16px !Important;
+    margin-right: -16px !Important;
+
+    padding: 0;
+}
+
+.message_topimgcredit
+{
+    background-color: #000;
+    color: #fff;
+    padding: 4px 16px;
+    line-height: 2em;
+    margin-bottom: 16px;
+
+
+}
+
+.message_group_topimgcredit
+{
+    background-color: #000;
+    color: #fff;
+    padding: 2px 6px;
+    line-height: 2em;
+    font-size: 8pt;
+    height: 20px;
+    margin: -4px -16px 16px -16px;
+    font-weight: bold;
+}
+
+.message_group_topimgcredit B
+{
+    float: right;
+    font-weight: normal;
+}
+
+
+.message_user
+{
+    height: 32px;
+    margin-bottom: 1em;
+
+}
+
+.msgdeleted
+{
+    background-color: #777 !important;
+
+}
+
+.mbdeletedby
+{
+    font-size: 8pt;
+    font-weight: bold;
+    color: #c00;
+}
+
+
+.message_topimg IMG
+{
+    /* max-width: 640px !important; */
+}
+
+.message_reply .message_user
+{
+
+    margin-top: -16px;
+    margin-bottom: 0;
+}
+
+
+.message_username A:hover
+{
+    text-decoration: none;
+}
+
+.msg_quoted
+{
+    background-color: #d0e7eb;
+    margin: 8px -8px 8px 8px !important;
+    padding: 8px; !important;
+    display: block;
+    border-radius: 6px;
+
+}
+
+.msg_quoted .msg_quoted
+{
+    border-left: 1px dashed #888;
+    border-bottom: 1px dashed #888;
+    border-radius: 0;
+    background-color: #e8eeef;
+}
+
+.msg_quoted .msg_quoted .msg_quoted, .msg_quoted .msg_quoted .msg_quoted .msg_quoted .msg_quoted
+{
+    background-color: #d0e7eb;
+}
+
+.msg_quoted .msg_quoted .msg_quoted .msg_quoted, .msg_quoted .msg_quoted .msg_quoted .msg_quoted .msg_quoted .msg_quoted
+{
+    background-color: #e8eeef;
+}
+
+
+.msg_quoted H2
+{
+    color: #008;
+    font-size: 10pt !important;
+}
+
+
+.msg_quoted h2 span span span
+{
+    color: #aaa;
+    padding-left: 1em;
+    font-weight: normal !important;
+}
+
+@media screen and (min-width: 679px) and (max-width: 1011px) {
+    .discussting
+    {
+        width: 200px;
+    }
+
+    #message_topmenu
+    {
+        background-color: #29af8f;
+
+        width: 608px;
+        padding: 16px 16px 0px 16px;
+        margin-bottom: 12px;
+        border-radius: 5px;
+        text-align: center;
+
+    }
+
+    #message_topmenu h1
+    {
+
+        background-color: #008398;
+
+        color: #fff;
+        margin: 0;
+        padding: 6px 8px 5px 8px;
+        font-size: 14pt;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom: 1px solid #ccc;
+        margin: -16px -16px 1px -16px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 678px) {
+    .discussting
+    {
+        width: 100px;
+    }
+
+
+    #mb_newdirectcontent
+
+    {
+        width: 100%
+    }
+    #mb_sendthatmessage
+    {
+        margin-left: calc(100% - 68px);
+    }
+    #message_topmenu
+    {
+        background-color: #29af8f;
+
+        width: calc(100% - 24px);
+        padding: 16px 16px 0px 16px;
+        margin-bottom: 12px;
+        border-radius: 5px;
+        margin-left: -4px;
+        text-align: center;
+
+    }
+
+    #message_topmenu h1
+    {
+
+        background-color: #008398;
+
+        color: #fff;
+        margin: 0;
+        padding: 6px 8px 5px 8px;
+        font-size: 14pt;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom: 1px solid #ccc;
+        margin: -16px -16px 1px -16px;
+    }
+
+    .messageboard_group_main
+    {
+        width: calc(100% - 24px);
+        margin-left: -4px;
+    }
+
+
+    .mainmsg.message_wrap
+    {
+        width: calc(100% - 24px);
+        margin-left: -4px;
+    }
+    .displayaccl
+    {
+        display: none;
+    }
+
+    .message_reply
+    {
+    //width: 314px;
+        margin-left: -4px;
+        width: calc(100% + 8px);
+    }
+
+    .message_reply .message_wrap
+    {
+    //width: 242px;
+        width: calc(100% - 72px);
+    }
+
+    .message_reply.subreply
+    {
+    //	width: 300px;
+        width: calc(100% - 16px);
+    }
+
+    .message_reply.subreply .message_wrap
+    {
+    //width: 228px;
+
+        width: calc(100% - 72px);
+    }
+
+
+    .mainmsg img
+    {
+        max-width: calc(100% - 20px) !important;
+    }
+
+
+    .mainmsg .userbigpicture IMG,    .mainmsg .userbigpicture VIDEO
+    {
+        max-width: 100%;
+        width: 100%;
+    }
+
+
+    .message_reply .userbigpicture IMG,  .message_reply .userbigpicture VIDEO
+    {
+        max-width: calc(100% - 46px);
+        width:  calc(100% - 46px);
+    }
+
+    .message_reply img,   .message_reply VIDEO
+    {
+        margin-left: 0;
+        max-width: calc(100% - 40px) !important;
+    }
+
+    .message_reply.subreply img,  .message_reply.subreply VIDEO
+    {
+
+        max-width: calc(100% - 58px) !important;
+
+    }
+
+    #messageboard_home
+    {
+        width: calc(100% - 24px);
+        margin-left: -4px;
+    }
+
+    .mb_hpgroups .mbps
+    {
+        width: 118px;
+        text-align: center;
+        padding-bottom: 8px;
+    }
+
+    a.newthread
+    {
+        margin-right: 14px  !important;
+    }
+
+    .mainmsg.message_wrap .plainuserpicture IMG
+    {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .message_user
+    {
+        height: 42px;
+        overflow: hidden;
+    }
+
+    #message_edit
+    {
+        width: 100%  !Important;
+        padding: 1;
+        margin-left: 0;
+        border-radius: 0;
+    }
+    #meinsert
+    {
+        margin-left: 0 !important;
+        display: block;
+
+        margin-right: 1em;
+    }
+
+    #meditbottom span
+    {
+        display: none;
+    }
+
+    #mesubmit
+    {
+        margin-top: -25px;
+    }
+
+    #mephotoimg
+    {
+        width: 100%;
+        padding: 0 !important;
+        margin-left: -8px !Important;
+        /* margin-top: -10px !Important; */
+    }
+
+    #mephotoimg IMG
+    {
+        max-width: calc(100% - 22px);
+
+        border: 1px solid #ccc;
+    }
+
+    #ma_final_actions
+    {
+        width: 100%;
+    }
+
+    #pcloseme
+    {
+        font-size: 8pt;
+        text-shadow: 1px 1px #ffffff;
+        left: -10px;
+        top: 16px;
+        display: none;
+        margin-bottom: -14px;
+    }
+
+
+    #mesubject
+    {
+        max-width: 98% !important;
+    }
+
+}
+=======
+BODY
+{
+    /* overflow-anchor: none;  too many problems with this */
+}
+
+#message_edit
+{
+    background-color: #fff;
+    margin-top: 16px;
+    margin-left: 40px;
+    padding: 8px 8px;
+    width: 584px;
+    border-radius: 6px;
+}
+
+.message_edit_wider
+{
+    width: 624px !important;
+    margin-left: 0 !important;
+}
+
+.message_edit_wider::selection
+{
+    background-color: highlight;
+}
+
+.message_edit_wider #mesubject,
+.message_edit_wider #melocation
+{
+    width: 614px;
+}
+
+.message_edit_wider #meinsert
+{
+    margin-left: 145px;
+}
+
+#ma_hide_deleted, #ma_show_deleted
+{
+    float: left;
+}
+
+.discussting
+{
+    display: inline-block;
+    width: 114px;
+    height: 24px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: -1px;
+    margin-bottom: 0px;
+    text-align: center;
+//	background-color: #cfe7eb;
+    background-color: #29af90;
+    user-select: none;
+    padding-left: 0;
+    color: #fff !important;
+
+    cursor: pointer;
+}
+
+.discusstingfirst
+{
+    margin-left: -16px;
+    width: 113px;
+    border-right: 1px solid #cfe7eb;
+}
+
+.discusstingwide
+{
+    margin-left: -16px;
+    margin-right: -16px;
+    width: 342px;
+    border-right: 1px solid #cfe7eb;
+}
+
+.discusstinglast
+{
+    margin-right: -16px;
+    width: 113px;
+    border-left: 1px solid #cfe7eb;
+}
+
+
+.discussting:hover
+{
+    background-color: #b1d0ff;
+    color: #00c !important;
+    text-decoration: none;
+}
+
+.markread
+{
+    font-size: 9pt;
+    float: left;
+    padding-top: 15px;
+}
+
+.newthread
+{
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    padding-top: 4px;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #eee;
+    user-select: none;
+    float: right;
+
+    font-weight: bold;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.newthread:hover
+{
+    background-color: #b1d0ff;
+    color: #00c;
+    text-decoration: none;
+}
+
+
+#message_edit_alert
+{
+    margin-top: 8px;
+    color: red;
+}
+
+#medittitle
+{
+    display: block;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 11pt;
+    user-select: none;
+    background-color: #cfe7eb;
+    margin-bottom: 8px;
+}
+
+#medittitle #closeme
+{
+    float: right;
+    user-select: none;
+    font-size: 8pt;
+    cursor: pointer;
+}
+
+#pcloseme
+{
+    float: right;
+    position: relative;
+    font-size: 8pt;
+    text-shadow: 1px 1px #ffffff;
+    left: -22px;
+    top: 12px;
+    display: none;
+}
+
+
+#mephoto
+{
+    padding: 16px 8px;
+    text-align: center;
+    border: 1px solid #888;
+    background-color: #eee;
+    user-select: none;
+    font-weight: bold;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+#mephotosub
+{
+    font-size: 8pt;
+    text-align: left;
+    margin-top: 8px;
+}
+
+#mephotosub LI
+{
+    list-style-type: disc;
+}
+
+.meimportant
+{
+    font-size: 10pt;
+    color: red;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#meditmodal
+{
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: none;
+}
+#meditmodal button
+{
+    display: inline-block;
+
+    background-color: #29af90;
+    color: #fff;
+    padding: 4px 8px;
+    border: 0px;
+    font-size: 9pt;
+    margin-right: 0.5em;
+    border-radius: 3px;
+}
+
+#meditpastecancel
+{
+    float: right;
+    background-color: #c00 !important;
+}
+
+#mesubject, #melocation
+{
+    font-size: 12pt;
+    /* width: 574px; */
+    padding: 4px;
+    margin-top: 8px;
+    border: 1px solid #888;
+}
+
+.mehardrow
+{
+    width: 100% !important;
+}
+
+.mehardrow LABEL
+{
+    font-weight: bold;
+    display: inline-block;
+    width: 300px;
+    padding-top: 11px;
+    padding-bottom: 4px;
+}
+
+
+
+#mephotoimg
+{
+    display: none;
+    width: 568px;
+    max-width: 568px;
+
+}
+
+#mephotoimg IMG
+{
+    max-width: 558px;
+    border: 1px solid #ccc;
+}
+
+
+#metext
+{
+    padding: 16px 8px;
+    padding-top: 40px;
+    min-height: 100px;
+    border: 1px solid #888;
+    background-color: #f8f8f8;
+    user-select: auto !important;
+}
+
+
+#metext .userbigpicture
+{
+    width: auto !important;
+}
+#metext .userbigpicture IMG {
+    border: 0;
+    max-width: 100%;
+}
+
+#mebuttons
+{
+    background-color: #e0e0e0;
+    border-top: 1px solid #888;
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    margin-top: 6px;
+    margin-bottom: -26px;
+    height: 25px;
+
+    position: relative;
+    border-bottom: 1px solid #888;
+
+}
+
+#mebuttons button
+{
+    font-size: 9pt;
+    padding: 2px 8px;
+    margin-top: 0;
+    height: 25px;
+    width: 26px;
+    background-color: #eee;
+    border: 0;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+}
+
+#mebutton_subscript
+{
+    height: 26px !important;
+}
+
+.mebuttoncancelled
+{
+    background: linear-gradient(135deg, #eeeeee 0%,#eeeeee 48%,#ff3030 50%,#eeeeee 52%,#eeeeee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.mebuttonright
+{
+    float: right;
+    border-left: 1px solid #888 !important;
+    border-right: 0 !important;
+}
+
+
+
+#mebuttons button:hover
+{
+    background-color: #b1d0ff;
+}
+
+
+#mephotoimg
+{
+    display: none;
+}
+
+
+#meditbottom
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #aaa;
+}
+#mesubmit
+{
+    display: inline-block;
+    float: right;
+    background-color: #29af90;
+    color: #fff;
+    padding: 4px 8px;
+    opacity: 0.5;
+    border-radius: 3px;
+
+}
+
+#mesubmit:hover
+{
+    cursor: pointer;
+    background-color: #b1d0ff;
+    color: #00c;
+    user-select: none;
+}
+
+
+#meinsert {
+    /* display: block; */
+    font-size: 16px;
+    font-family: sans-serif;
+    /* font-weight: 700; */
+    color: #fff;
+    /* line-height: 1.3; */
+    padding: 4px 8px;
+    width: 150px;
+    /* width: 100%; */
+    /* max-width: 100%; */
+    box-sizing: border-box;
+    margin: 0;
+    text-align-last: center;
+    /* text-align: center; */
+    border: 0;
+    border-radius: 3px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #008398;
+    margin-left: 125px;
+    /* background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); */
+    /* background-repeat: no-repeat, repeat; */
+    /* background-position: right .7em top 50%, 0 0; */
+    /* background-size: .65em auto, 100%; */
+}
+#meinsert::-ms-expand {
+    display: none;
+}
+#meinsert:hover {
+    background-color: #b1d0ff;
+    color: #00c;
+    user-select: none;
+}
+#meinsert:focus {
+
+
+    color: #fff;
+    outline: none;
+}
+#meinsert option {
+
+    font-weight:normal;
+}
+
+
+#message_sidemenu
+{
+    float: right;
+    background-color: #fff;
+    min-height: 100px;
+    width: 310px;
+    padding: 16px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+}
+
+.message_statstable
+{
+    margin-top: 8px !important;
+    width: 342px;
+    margin-left: -16px !Important;
+}
+
+.mb_postlink
+{
+    background-color: #cfe7eb;
+    display: block;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #000 !important;
+}
+
+.mb_postlink:hover
+{
+    background-color: #6EB5C2;
+    color: #fff;
+
+}
+
+.mb_postlink SPAN
+{
+    font-weight: normal;
+    float: right;
+    font-size: 10pt;
+}
+
+
+
+#articlemessages #message_sidemenu
+{
+    margin-top: 1em;
+}
+
+
+#mbsearchtxt
+{
+    width: 543px;
+    font-size: 12pt;
+    padding: 3px;
+    margin-bottom: 1em;
+}
+
+#mbsearchmore
+{
+    display: none;
+    margin-bottom: 1em;
+}
+
+
+#mbsearchexpand
+{
+    float: right;
+    user-select: none;
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+
+    border-radius: 3px;
+
+    background-color: #acf;
+    font-weight: bold;
+}
+
+#mbsearchexpand:hover
+{
+    background-color: #ffc;
+
+}
+
+#mbwhen, #mbdepth, #mbgroups, #mbread
+{
+    font-size: 10pt;
+
+    height: 24px;
+
+    border: 1px solid #ccc !important;
+}
+
+#ma_final_actions
+{
+    width: 640px;
+}
+
+.ma_reportarea
+{
+    clear: both;
+    color: #f42;
+
+}
+
+.ma_reportarea SPAN
+{
+    font-weight: bold;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 4px;
+    background-color: #ffce;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.ma_reportarea span:hover
+{
+    background-color: #f42;
+    color: #fff;
+}
+
+.message_actions
+{
+    font-size: 8pt;
+    margin-top: 16px;
+    margin-bottom: -8px;
+    margin-right: -8px;
+    text-align: right;
+    opacity: 1;
+    color: #888;
+    height: 15px;
+}
+
+.mb_seenby
+{
+    padding-top: 16px;
+    font-size: 7pt;
+    color: #555;
+}
+
+.message_moderate_actions
+{
+    font-size: 8pt;
+    clear: both;
+    padding-top: 8px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    opacity: 1;
+    color: #f22;
+    display: none;
+    height: 15px;
+}
+
+#articlemessages>.message_actions, #articlemessages>.message_moderate_actions
+{
+    width: 640px;
+    padding-bottom: 1em;
+}
+
+.message_actions span, .message_moderate_actions span
+{
+    cursor:pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+
+    user-select: none;
+}
+
+.ma_moderate
+{
+    float: left;
+    margin-left: 0px !Important;
+}
+
+#articlemessages>.message_actions span, #articlemessages>.message_moderate_actions span
+{
+
+    display: inline-block;
+
+    background-color: #29af90;
+    color: #fff;
+    padding: 4px 8px;
+
+    border-radius: 3px;
+
+}
+
+#articlemessages>.message_actions span:hover, #articlemessages>.message_moderate_actions span:hover
+{
+    cursor: pointer;
+    background-color: #b1d0ff;
+    color: #00c;
+    user-select: none;
+}
+
+
+.t_switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 18px;
+}
+
+/* Hide default HTML checkbox */
+.t_switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+#mb_newdirectcontent
+{
+    width: 600px;
+    font-size: 10pt;
+    height: 180px;
+    padding: 8px;
+    margin-left: -6px;
+}
+
+#mb_sendthatmessage
+{
+    background-color: #29af90;
+    color: #fff;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 536px;
+}
+
+#mb_sendthatmessage:hover
+{
+    background-color: #b1d0ff;
+    color: #00c !important;
+}
+
+.mbd_hide
+{
+
+    width: 100%;
+    text-align: right;
+    padding-bottom: 10px;
+    margin-top: -16px;
+}
+
+#bug_button
+{
+    display: none;
+}
+
+.bugme
+{
+    display: block !important;
+    background-color: #ffcc00;
+    border: 1px solid #444;
+    border-radius: 3px;
+}
+
+/* The slider */
+.t_slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.t_slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 1px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+input:checked + .t_slider {
+    background-color: #2196F3;
+}
+
+input:focus + .t_slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .t_slider:before {
+
+    transform: translateX(12px);
+}
+
+/* Rounded sliders */
+.t_slider.t_round {
+    border-radius: 24px;
+}
+
+.t_slider.t_round:before {
+    border-radius: 50%;
+}
+
+.message_reply:hover .message_actions, .message_wrap:hover .message_actions
+{
+    opacity: 1;
+}
+
+.message_actions span:hover, .message_moderate_actions span:hover
+{
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+
+A.mbps
+{
+    display: block;
+    margin: 0 -16px;
+    padding: 5px 8px 5px 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 9pt;
+    color: #222;
+    user-select: none;
+}
+.mb_hpgroups .mbps
+{
+    display: inline-block;
+    width: 170px;
+    margin: 4px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    float: left;
+    height: 32px;
+    background-color: #f4f7f7;
+    border-radius: 4px;
+}
+
+
+.mbps:hover, .mb_hpgroups .mbps:hover
+{
+    text-decoration: none;
+    background-color: #b8e5d8;
+    color: #000;
+    cursor: pointer;
+}
+
+.mbpsfoc
+{
+    border-top: 1px solid #ddd;
+}
+
+.mbps3
+{
+    background-color: #cfe7eb;
+}
+
+
+#movethreadgo {
+    font-size: 8pt;
+    height: 20px;
+    border: 0;
+    margin-left: 4px;
+    cursor: pointer;
+    background-color: #29af90;
+    color: #fff;
+
+}
+
+#movethreadgo:hover {
+    background-color: #b1d0ff;
+    color: #00c;
+}
+
+
+.mpgclass2
+{
+    float: right;
+    margin-top: 6px;
+
+}
+
+
+.mbps B
+{
+    display: block;
+
+}
+
+.messageboard_group_main .messageboard_threadpreview
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mbdeletedmsg
+{
+    background-color: #bbb !important;
+}
+
+.mbtpdate.unread
+{
+
+    color: #f00 !important;
+    font-weight: bold !important;
+
+}
+
+.messageboard_threadpreview
+{
+    display: block;
+    height: 48px;
+    margin-left: -16px;
+    margin-right: -16px;
+    line-height: 1.5em;
+    border-bottom: 1px solid #ddd;
+    padding: 12px 8px 0 8px;
+    user-select: none;
+    background-color: #eee;
+}
+
+
+
+
+
+.threadunread
+{
+    background-color: #fff;
+}
+
+
+.mbmarketplace
+{
+    background-color: #eeaa !important;
+}
+
+.mbmarketplace.threadunread
+{
+    background-color: #ff8 !important;
+}
+
+
+
+
+.messageboard_threadpreview:hover
+{
+    text-decoration: none;
+    background-color: #b8e5d8;
+}
+
+.messageboard_threadpreview IMG
+{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin-top: 4px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.mbtpsubj
+{
+    display: block;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#ma_final_actions
+{
+    background-color: #fff;
+    padding: 1em 0;
+    border-radius: 4px;
+}
+
+.mbtpdate
+{
+    display: block;
+    font-size: 7.5pt;
+    color: #666;
+    overflow: hidden;
+    height: 16pt;
+    margin-top: 1px;
+    margin-right: -2px;
+    margin-left: 1em;
+    float: right;
+}
+
+.unread .mbtpdate
+{
+    color: #f00 !important;
+    font-weight: bold !important;
+}
+
+.mbtpgroup
+{
+    color: #888 !important;
+}
+
+.message_username .mbtpdate
+{
+    float: right;
+    font-size: 8pt;
+    padding-top: 2px;
+    color: #888;
+    font-weight: normal;
+    margin-right: -10px;
+}
+
+#photomessages .message_username .mbtpdate
+{
+    margin-right: 24px !Important;
+}
+
+.mbtpname
+{
+
+    font-size: 8pt;
+    padding-top: 1px;
+    color: #000;
+    display: block;
+
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.mbtpname span
+{
+    color: #822;
+}
+
+.mb_groupedit
+{
+    float: right;
+    font-size: 9pt;
+    font-weight: normal;
+    color: #fff !important;
+}
+
+
+#message_sidemenu h1
+{
+    margin: -16px -16px 0 -16px;
+    background-color: #008398;
+
+    color: #fff;
+    padding: 6px 8px 7px 8px;
+    font-size: 14pt;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#message_closeside
+{
+    float: right;
+    user-select: none;
+    font-size: 7pt;
+    color: #0cf;
+}
+
+#message_closeside:hover
+{
+    cursor: pointer;
+    color: #fff;
+}
+
+#message_sidemenu h2
+{
+    padding: 14px 8px 10px 8px;
+    background-color: #6EB5C2;
+    color: #fff;
+    text-align: center;
+
+    font-size: 10pt;
+    margin: 0 -16px 0 -16px !important;
+
+}
+
+
+.messageboard_group_main h2
+{
+    padding: 8px 8px 6px 8px !important;
+    background-color: #f4f4f4;
+    font-size: 10pt;
+    margin: 0 -16px 0 -16px !important;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #eee;
+}
+
+.messageboard_group_main h2 img
+{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: -6px;
+    margin-right: 8px;
+    margin-top: -6px;
+}
+
+#mbsimilarpost
+{
+    margin-top: -17px !important;
+    font-size: 13pt;
+    background-color: #6EB5C2;
+    color: #fff;
+}
+
+.mbd_quoted
+{
+    color: #888;
+}
+
+.message_wrap
+{
+    width: 608px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+}
+
+#mb_recentimages
+{
+    margin-left: -13.5px;
+    margin-right: -13.5px;
+    margin-top: 3px;
+}
+
+#mb_recentimages img:hover
+{
+    outline: 3px solid #f00;
+    outline-offset: -3px;
+
+}
+
+
+.message_wrap .plainuserpicture, .message_reply .plainuserpicture
+{
+    max-width: none !important;
+}
+
+
+
+.messageboard_group_main
+{
+    width: 608px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+}
+
+#mb_direct_delete
+{
+    float: right;
+    font-size: 14pt;
+    margin-left: 1em;
+    margin-right: -12px;
+    margin-top: -16px;
+    color: #c22;
+    cursor: pointer;
+}
+
+#mb_direct_delete:hover
+{
+    text-decoration: none;
+    color: #f00;
+}
+
+.messageboard_group_main H1 {
+    margin-top: -16px !important;
+    margin-bottom: 1em !important;
+
+    background-color: #6eb5c2;
+    color: #fff;
+    padding-bottom: 6px !Important;
+    padding-top: 8px !important;
+    font-size: 14pt !important;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+
+
+}
+
+.messageboard_article_heading {
+    margin-bottom: 1em !important;
+
+    background-color: #6eb5c2;
+    color: #fff;
+    padding-left: 8px;
+    padding-bottom: 6px !Important;
+    padding-top: 8px !important;
+    font-size: 14pt !important;
+    margin-left: -4px !important;
+    width: 628px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+
+
+.mb_direct_userwrap
+{
+    border: 1px solid #888;
+    border-radius: 6px;
+    margin-bottom: 1em;
+    padding: 8px;
+
+}
+
+.mb_direct_userwrap h3 img
+{
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 6px;
+    margin-left: -8px;
+    margin-top: 0px;
+    margin-right: 8px;
+    margin-bottom: -13px;
+}
+
+.mb_direct_userwrap h3
+{
+    padding: 0;
+    margin: 0;
+    background-color: #cfe7eb;
+    font-weight: bold;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    font-size: 18px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 0px 8px 8px 8px;
+}
+
+.mb_direct_preview
+{
+    display: block;
+    border-top: 1px solid #ccc;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 4px 8px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.mb_direct_preview:hover
+{
+    text-decoration: none;
+    background-color: #ffc;
+    color: #000;
+}
+
+.mb_dp_read
+{
+    font-weight: normal;
+    background-color: #f4f4f4;
+}
+
+.mb_direct_preview.mb_dp_to
+{
+    color: #888;
+
+}
+
+
+.mb_direct_preview.mb_dp_unread
+{
+    background-color: #fee;
+
+}
+
+.mb_direct_preview_date
+{
+    float: right;
+    font-weignt: normal;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.mb_direct_preview SPAN
+{
+    display: block;
+    float: left;
+    width: 46px;
+    font-weight: bold;
+}
+
+.messageboard_group_main H1 A
+{
+    color: #cff;
+}
+
+.messageboard_home_image
+{
+    margin-left: -16px;
+    display: block;
+    margin-top: -20px;
+}
+
+
+
+#messageboard_home
+{
+    width: 608px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+}
+
+#messageboard_home H1 {
+    margin-top: -16px !important;
+    margin-bottom: 1em !important;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px !Important;
+    padding-top: 8px !important;
+    font-size: 14pt !important;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    background-color: #6eb5c2;
+    color: #fff;
+
+
+}
+
+.messageboard_group_header_image
+{
+    margin-left: -16px;
+    display: block;
+    margin-top: -20px;
+
+}
+
+.mbad
+{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.message_group
+{
+    float: right;
+    font-size: 10pt;
+    font-weight: normal;
+    margin-top: 2px;
+
+}
+
+.message_group A
+{
+    user-select: none !important;
+    color: #400;
+}
+
+.message_group A:hover
+{
+    color: #c00;
+}
+
+.message_wrap H1 {
+    margin-top: -16px !important;
+    margin-bottom: 1em !important;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px !Important;
+    padding-top: 8px !important;
+    font-size: 12pt !important;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    background-color: #eee;
+    padding-left: 8px !important;
+
+}
+
+#photomessages .message_wrap H1
+{
+    padding-right: 8px;
+}
+
+.message_wrap .plainuserpicture
+{
+    padding: 0 !important;
+}
+
+
+.mb_attachments
+{
+
+    padding-top: 8px;
+}
+
+.mb_attachments p
+{
+    user-select: none;
+    border: 1px solid #000;
+    width: 30px;
+    height: 20px;
+    font-size: 6pt;
+    font-weight: bold;
+    padding-top: 20px;
+    background-color: #ffc;
+    border-top-left-radius: 5px;
+    color: #000;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mb_attachments p a
+{
+    text-decoration: none;
+}
+
+.mb_attachments p:hover
+{
+    color: #fff;
+    background-color: #f00;
+    cursor: pointer;
+}
+
+
+.mb_attachments IMG
+{
+    height: 40px;
+}
+
+.mb_attachments TABLE
+{
+    width: 100%;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.mb_attachments H2
+{
+    padding: 0;
+    margin: 0;
+    font-size: 10pt;
+}
+
+
+.mb_delete_attach
+{
+    color: #006;
+    cursor: pointer;
+}
+
+.mb_delete_attach:hover
+{
+    text-decoration: underline;
+}
+
+
+.mb_attachments TD
+{
+
+    padding: 4px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.mb_attachments TD:first-of-type
+{
+    text-align: center;
+    width: 40px;
+}
+
+.message_wrap img
+{
+    padding: 0 !Important;
+    max-width: 624px !important;
+    border: 0 !important;
+}
+
+#bug_button
+{
+    float: right;
+}
+
+
+
+.message_reply video
+{
+    padding: 0 !Important;
+    max-width: 600px !important;
+    border: 0 !important;
+}
+
+.mainmsg.message_wrap .plainuserpicture IMG
+{
+    width: 640px !important;
+    max-width: 640px !important;
+}
+
+.message_reply.subreply img
+{
+
+    max-width: 580px !important;
+
+}
+
+
+.message_wrap .userbigpicture IMG
+{
+    max-width: 640px !important;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.message_reply .userbigpicture IMG
+{
+    max-width: 600px !important;
+    height: auto;
+}
+
+
+
+.message_reply img
+{
+
+    max-width: 600px !important;
+
+}
+
+.message_reply.subreply img
+{
+
+    max-width: 580px !important;
+
+}
+
+.message_reply.subreply .userbigpicture IMG
+{
+    max-width: 580px !important;
+    height: auto;
+}
+
+
+.message_wrap .avatar
+{
+    width: 32px;
+    float: left;
+    margin-left: -8px;
+    margin-right: 8px;
+}
+
+.message_reply .avatar
+{
+    width: 30px;
+    float: left;
+    margin: 4px 4px 0 4px;
+    border: 1px solid #888;
+    border-radius: 4px;
+}
+
+.message_reply
+{
+    margin-top: 1em;
+    background-color: #eee;
+    width: 640px;
+    margin-left: 0;
+
+    border-radius:6px;
+}
+
+.mb_replyunthreaded
+{
+    font-size: 9pt;
+    margin-bottom: 1em;
+    opacity: 0.8;
+
+}
+
+.message_reply.subreply
+{
+    margin-left: 20px !important;
+    width: 620px;
+
+}
+
+
+
+.message_reply .quoteblock
+{
+    width: 534px;
+}
+
+.message_reply.subreply .quoteblock
+{
+    width: 514px !important;
+}
+
+.message_reply .message_wrap
+{
+    width: 568px;
+
+}
+
+.message_reply.subreply .message_wrap
+{
+    width: 548px;
+
+}
+
+.mr_manager
+{
+    background-color: #f9ad87 !important;
+}
+
+.mr_expert
+{
+    background-color: #f9d6c5 !important;
+}
+
+.mr_founder
+{
+    background-color: #f9ad87 !important;
+}
+
+.mr_founder A, .mr_manager A, .mr_expert A
+{
+    color: #006;
+}
+
+.mb_searchmatch
+{
+    color: #c00;
+    font-weight: bold;
+}
+
+.messageboard_contentpreview
+{
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+    width: auto;
+    margin-left: -16px;
+    margin-right: -16px;
+    font-size: 8.5pt;
+    padding-left: 16px;
+    padding-right: 8px;
+}
+
+.bugstatus_1
+{
+    background-color: #c00 !Important;
+    color: #fff !Important;
+}
+
+.bugstatus_1 A
+{
+    color: #ffc;
+}
+
+.bugstatus_1 A:hover
+{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.bugstatus
+{
+    color: transparent;
+    text-shadow: 0 0 0 #ff0;
+    user-select: none !important;
+}
+
+.bugstatusclosed
+{
+    text-decoration: line-through;
+    color: transparent;
+    text-shadow: 0 0 0 #888;
+    user-select: none !important;
+}
+
+.mbtpsubj .bugstatus
+{
+    text-shadow: 0 0 0 #f00;
+
+    font-weight: bold;
+}
+
+.displayaccl
+{
+    color: #800;
+    font-weight: normal;
+    margin-left: 6px;
+
+}
+
+.bug_status_table
+{
+    border: 2px solid #c88;
+    margin-top: 1em;
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-bottom: -16px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.bug_status_table TABLE
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bug_status_table TH
+{
+    background-color: #e00;
+    padding: 8px;
+    color: #fff;
+    border-right: 1px solid #e00;
+    border-bottom: 1px solid #e00;
+}
+
+.bug_status_table TD
+{
+
+    padding: 8px;
+
+    border-bottom: 1px solid #e00;
+}
+
+.displayaccl::before
+{
+    content: " -\a0\a0";
+}
+
+
+.message_wrap h2, .message_reply h2
+{
+    margin: 0;
+    font-size: 10pt !important;
+}
+
+.message_topimg
+{
+
+    margin-left: -16px !Important;
+    margin-right: -16px !Important;
+
+    padding: 0;
+}
+
+.message_topimgcredit
+{
+    background-color: #000;
+    color: #fff;
+    padding: 4px 16px;
+    line-height: 2em;
+    margin-bottom: 16px;
+
+
+}
+
+.message_group_topimgcredit
+{
+    background-color: #000;
+    color: #fff;
+    padding: 2px 6px;
+    line-height: 2em;
+    font-size: 8pt;
+    height: 20px;
+    margin: -4px -16px 16px -16px;
+    font-weight: bold;
+}
+
+.message_group_topimgcredit B
+{
+    float: right;
+    font-weight: normal;
+}
+
+
+.message_user
+{
+    height: 32px;
+    margin-bottom: 1em;
+
+}
+
+.msgdeleted
+{
+    background-color: #777 !important;
+
+}
+
+.mbdeletedby
+{
+    font-size: 8pt;
+    font-weight: bold;
+    color: #c00;
+}
+
+
+.message_topimg IMG
+{
+    /* max-width: 640px !important; */
+}
+
+.message_reply .message_user
+{
+
+    margin-top: -16px;
+    margin-bottom: 0;
+}
+
+
+.message_username A:hover
+{
+    text-decoration: none;
+}
+
+.msg_quoted
+{
+    background-color: #d0e7eb;
+    margin: 8px -8px 8px 8px !important;
+    padding: 8px; !important;
+    display: block;
+    border-radius: 6px;
+
+}
+
+.msg_quoted .msg_quoted
+{
+    border-left: 1px dashed #888;
+    border-bottom: 1px dashed #888;
+    border-radius: 0;
+    background-color: #e8eeef;
+}
+
+.msg_quoted .msg_quoted .msg_quoted, .msg_quoted .msg_quoted .msg_quoted .msg_quoted .msg_quoted
+{
+    background-color: #d0e7eb;
+}
+
+.msg_quoted .msg_quoted .msg_quoted .msg_quoted, .msg_quoted .msg_quoted .msg_quoted .msg_quoted .msg_quoted .msg_quoted
+{
+    background-color: #e8eeef;
+}
+
+
+.msg_quoted H2
+{
+    color: #008;
+    font-size: 10pt !important;
+}
+
+
+.msg_quoted h2 span span span
+{
+    color: #aaa;
+    padding-left: 1em;
+    font-weight: normal !important;
+}
+
+@media screen and (min-width: 679px) and (max-width: 1011px) {
+    .discussting
+    {
+        width: 200px;
+    }
+
+    #message_topmenu
+    {
+        background-color: #29af8f;
+
+        width: 608px;
+        padding: 16px 16px 0px 16px;
+        margin-bottom: 12px;
+        border-radius: 5px;
+        text-align: center;
+
+    }
+
+    #message_topmenu h1
+    {
+
+        background-color: #008398;
+
+        color: #fff;
+        margin: 0;
+        padding: 6px 8px 5px 8px;
+        font-size: 14pt;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom: 1px solid #ccc;
+        margin: -16px -16px 1px -16px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 678px) {
+    .discussting
+    {
+        width: 100px;
+    }
+
+
+    #mb_newdirectcontent
+
+    {
+        width: 100%
+    }
+    #mb_sendthatmessage
+    {
+        margin-left: calc(100% - 68px);
+    }
+    #message_topmenu
+    {
+        background-color: #29af8f;
+
+        width: calc(100% - 24px);
+        padding: 16px 16px 0px 16px;
+        margin-bottom: 12px;
+        border-radius: 5px;
+        margin-left: -4px;
+        text-align: center;
+
+    }
+
+    #message_topmenu h1
+    {
+
+        background-color: #008398;
+
+        color: #fff;
+        margin: 0;
+        padding: 6px 8px 5px 8px;
+        font-size: 14pt;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom: 1px solid #ccc;
+        margin: -16px -16px 1px -16px;
+    }
+
+    .messageboard_group_main
+    {
+        width: calc(100% - 24px);
+        margin-left: -4px;
+    }
+
+
+    .mainmsg.message_wrap
+    {
+        width: calc(100% - 24px);
+        margin-left: -4px;
+    }
+    .displayaccl
+    {
+        display: none;
+    }
+
+    .message_reply
+    {
+    //width: 314px;
+        margin-left: -4px;
+        width: calc(100% + 8px);
+    }
+
+    .message_reply .message_wrap
+    {
+    //width: 242px;
+        width: calc(100% - 72px);
+    }
+
+    .message_reply.subreply
+    {
+    //	width: 300px;
+        width: calc(100% - 16px);
+    }
+
+    .message_reply.subreply .message_wrap
+    {
+    //width: 228px;
+
+        width: calc(100% - 72px);
+    }
+
+
+    .mainmsg img
+    {
+        max-width: calc(100% - 20px) !important;
+    }
+
+
+    .mainmsg .userbigpicture IMG,    .mainmsg .userbigpicture VIDEO
+    {
+        max-width: 100%;
+        width: 100%;
+    }
+
+
+    .message_reply .userbigpicture IMG,  .message_reply .userbigpicture VIDEO
+    {
+        max-width: calc(100% - 46px);
+        width:  calc(100% - 46px);
+    }
+
+    .message_reply img,   .message_reply VIDEO
+    {
+        margin-left: 0;
+        max-width: calc(100% - 40px) !important;
+    }
+
+    .message_reply.subreply img,  .message_reply.subreply VIDEO
+    {
+
+        max-width: calc(100% - 58px) !important;
+
+    }
+
+    #messageboard_home
+    {
+        width: calc(100% - 24px);
+        margin-left: -4px;
+    }
+
+    .mb_hpgroups .mbps
+    {
+        width: 118px;
+        text-align: center;
+        padding-bottom: 8px;
+    }
+
+    a.newthread
+    {
+        margin-right: 14px  !important;
+    }
+
+    .mainmsg.message_wrap .plainuserpicture IMG
+    {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .message_user
+    {
+        height: 42px;
+        overflow: hidden;
+    }
+
+    #message_edit
+    {
+        width: 100%  !Important;
+        padding: 1;
+        margin-left: 0;
+        border-radius: 0;
+    }
+    #meinsert
+    {
+        margin-left: 0 !important;
+        display: block;
+
+        margin-right: 1em;
+    }
+
+    #meditbottom span
+    {
+        display: none;
+    }
+
+    #mesubmit
+    {
+        margin-top: -25px;
+    }
+
+    #mephotoimg
+    {
+        width: 100%;
+        padding: 0 !important;
+        margin-left: -8px !Important;
+        /* margin-top: -10px !Important; */
+    }
+
+    #mephotoimg IMG
+    {
+        max-width: calc(100% - 22px);
+
+        border: 1px solid #ccc;
+    }
+
+    #ma_final_actions
+    {
+        width: 100%;
+    }
+
+    #pcloseme
+    {
+        font-size: 8pt;
+        text-shadow: 1px 1px #ffffff;
+        left: -10px;
+        top: 16px;
+        display: none;
+        margin-bottom: -14px;
+    }
+
+
+
+}
+>>>>>>> mindat/master
